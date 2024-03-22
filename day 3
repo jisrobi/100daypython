@@ -1,0 +1,37 @@
+#Day3#codition
+print("Welcome to the blind!")
+# height = int(input("What's your height? "))
+# age = int(input("What's your age? "))
+# #nasted if else
+# if height > 120:
+#     print("You can participate.")
+# elif age > 18 :
+#     print("You can participate.")
+# else:
+#     print("Sorry, you cannot participate.")
+# x = 10
+# if x > 5:
+#     if x < 15:
+#         print("x is between 5 and 15")
+#     else:
+#         print("x is greater than or equal to 15")
+# else:
+#     print("x is 5 or less")
+# ch = input("your type 'right' or 'left' ").lower()
+#
+# if ch =="right":
+#     print("game over")
+# else:
+#     ptint("go")
+marks = int(input("Enter your marks: "))  # Convert input to an integer
+
+if marks >= 90:
+    print("A")
+elif marks >= 80:
+    print("B")
+elif marks >= 70:
+    print("C")
+elif marks >= 60:
+    print("D")
+else:
+    print("E")
