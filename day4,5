@@ -1,0 +1,47 @@
+#for loop
+# for item in iterable:
+    # Code block to be repeated for each item in the iterable
+    # You can access the current item using the variable 'item'
+    # Indentation is crucial in Python to define the block of code inside the loop
+
+# for i in range(4):
+#     print(i)
+# # Define a list of numbers
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#
+# # Initialize a variable to store the sum
+# total = 0
+#
+# # Iterate over the first 10 elements and accumulate their sum
+# for num in numbers[:10]:
+#     print(num)
+#     total += num
+
+# # Print the sum
+# print("Sum of the first 10 elements:", total)
+# while condition:
+#     # Code block to be repeated as long as the condition is true
+#     # Indentation is crucial in Python to define the block of code inside the loop
+
+
+# count = 1
+# while count <= 5:
+#     print(count)
+#     count += 1  # Increment the count by 1 in each iteration
+# Initialize total sum
+total = 0
+
+# Infinite loop until user enters a negative number
+while True:
+    num = int(input("Enter a number (enter a negative number to exit): "))
+    if num < 0:
+        break  # Exit the loop if a negative number is entered
+    total += num  # Add the entered number to the total sum
+
+# Print the sum
+print("Sum of the numbers entered:", total)
+while True:
+    num = int(input("Enter a number (enter a negative number to exit): "))
+    if num < 0:
+        break  # Exit the loop if a negative number is entered
+    print("You entered:", num)
