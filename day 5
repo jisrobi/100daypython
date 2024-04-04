@@ -1,0 +1,111 @@
+# num1= 10
+# num2 = 5
+#
+# print("num2 + num2", num1 + num2)
+# print("num2  - num2", num1 - num2)
+# print("num2  * num2", num1 * num2)
+# print("num2 /num2", num1 / num2)
+# print("num2 // num2", num1 // num2)
+# print("num2 ** num2", num1 ** num2)
+# print("num2  % num2", num1 %  num2)
+# #comperisoin oparator
+# x=10
+# y =3
+# print(x>y)
+# print(x<y)
+# print(x!=y)
+
+
+print(-3+4*5) #17
+print(min(1, 2, 3,6,7,-2))
+print(max(1, 2, 3))
+print(abs(32))# absolate number
+print(abs(-32))
+print(float(10/3))
+print(int(10/3))
+# multiple assing
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+x= y= z = "Orange"
+print(x)
+print(y)
+print(z)
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+#using string concatination
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+#ramdom number
+import random
+print(random.randrange(1, 10))
+#upper case  lower case
+a = "Hello, World!"
+print(a.upper())
+a = "Hello, World!"
+print(a.lower())
+a = " Hello,   World! "
+print(a.strip())#Remove Whitespace
+a = "Hello, World!"
+print(a.replace("H", "J"))# relace number
+a = "Hello, World!"
+print(a.split(" ")) # returns ['Hello', ' World!']
+#Get the characters from position 2 to position 5 (not included):
+
+b = "Hello, World!"
+print(b[2:5])#start to  end
+# format function
+age = 36
+txt = "My name is John, and I am {}"
+print(txt + str(age))
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])# spacific print
+#Addintig  something append () nfunction and insert
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+# extend add  two  variable
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
+#remove function pop deleleted cler
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thisl
